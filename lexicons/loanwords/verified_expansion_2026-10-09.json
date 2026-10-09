@@ -1,0 +1,1119 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-09",
+  "policy": "Established Bangla loanword spellings and brand pronunciations, assessed linguistically and corroborated with published Bengali usage plus the existing Bangla corpus. These are loanword alternatives, not semantic translations. Teacher-hosted articles demonstrate usage, not Bangla Academy approval. Corpus counts are evidence, not the artifact ranking frequency; the builder retains its default frequency 16.",
+  "baseline_dataset_commit": "c1ded93",
+  "corpus": {
+    "path": "lexicons/merged/bn.tsv",
+    "dataset_commit": "c1ded93",
+    "sha256": "be00a72ab27a4ce88bbdbf6e12e3b1a0a1920f704b04d9046fffa7c924ea13aa"
+  },
+  "sources": {
+    "chromium": {
+      "title": "Chromium Bengali UI translations",
+      "url": "https://chromium.googlesource.com/chromium/src/+/a58954d33ab9a41bb7748672343c6d6d6829311e/chrome/app/resources/generated_resources_bn.xtb",
+      "kind": "primary_localization",
+      "snapshot_sha256": "1ad70ca042d7b349c30b46fb7d4f9a4549504d0369ad0aa513cbbddb91caa981"
+    },
+    "amazon": {
+      "title": "BSS: Amazon data centres",
+      "url": "https://www.bssnews.net/bangla/international/330729",
+      "kind": "news_usage"
+    },
+    "walmart": {
+      "title": "Walmart publisher listing in Bengali",
+      "url": "https://play.google.com/store/apps/details?hl=bn&id=com.walmart.android",
+      "kind": "publisher_localization"
+    },
+    "starbucks": {
+      "title": "Prothom Alo: Starbucks and Sattar Buksh",
+      "url": "https://www.prothomalo.com/amp/story/lifestyle/igwrb35uwz",
+      "kind": "news_usage"
+    },
+    "pyramid": {
+      "title": "Teachers portal: pyramid geometry",
+      "url": "https://www.teachers.gov.bd/content/details/1021924",
+      "kind": "government_hosted_educator"
+    },
+    "category": {
+      "title": "Rural Development and Cooperatives e-commerce portal",
+      "url": "https://ecommerce.rdcd.gov.bd/",
+      "kind": "primary_government_ui"
+    },
+    "bandwidth": {
+      "title": "Teachers portal: bandwidth",
+      "url": "https://www.teachers.gov.bd/blog/details/839187",
+      "kind": "government_hosted_educator"
+    },
+    "barcode": {
+      "title": "Teachers portal: barcode reader",
+      "url": "https://teachers.gov.bd/content/details/407312",
+      "kind": "government_hosted_educator"
+    },
+    "chatbot": {
+      "title": "Land Ministry Bhumipedia app listing",
+      "url": "https://play.google.com/store/apps/details?hl=bn&id=bd.gov.land.bhumipedia",
+      "kind": "publisher_localization"
+    },
+    "pixel": {
+      "title": "Teachers portal: RGB pixels",
+      "url": "https://teachers.gov.bd/content/details/1543398",
+      "kind": "government_hosted_educator"
+    },
+    "projector": {
+      "title": "Teachers portal: output devices",
+      "url": "https://www.teachers.gov.bd/content/details/491231",
+      "kind": "government_hosted_educator"
+    },
+    "education": {
+      "title": "Teachers portal: coaching and curriculum",
+      "url": "https://www.teachers.gov.bd/blog/details/781338",
+      "kind": "government_hosted_educator"
+    },
+    "webinar": {
+      "title": "National Book Centre event calendar",
+      "url": "https://nbc.portal.gov.bd/pages/event-calendars?aggregated=true",
+      "kind": "primary_government_ui"
+    },
+    "refund": {
+      "title": "YouTube Bengali refund help",
+      "url": "https://support.google.com/youtube/answer/12013743?hl=bn",
+      "kind": "primary_localization"
+    },
+    "gp": {
+      "title": "Grameenphone Bengali partner announcement",
+      "url": "https://www.grameenphone.com/bn/about/media-center/press-release/gp-accelerator-launches-jelay-jelay-smart-uddyokta",
+      "kind": "primary_brand_publication"
+    },
+    "attachment": {
+      "title": "Apple Bengali iPhone Mail attachment guide",
+      "url": "https://support.apple.com/bn-in/guide/iphone/iph7fe7a50a7/ios",
+      "kind": "primary_localization"
+    },
+    "teacher": {
+      "title": "Teachers portal: Master and Teacher usage",
+      "url": "https://www.teachers.gov.bd/blog/details/788322",
+      "kind": "government_hosted_educator"
+    },
+    "upload": {
+      "title": "Teachers portal: uploading and downloading content",
+      "url": "https://www.teachers.gov.bd/blog/details/678228",
+      "kind": "government_hosted_educator"
+    },
+    "keyboard": {
+      "title": "Teachers portal: keyboard keys",
+      "url": "https://www.teachers.gov.bd/content/details/1666121",
+      "kind": "government_hosted_educator"
+    },
+    "dress": {
+      "title": "Teachers portal: dress making course",
+      "url": "https://teachers.gov.bd/content/details/981135",
+      "kind": "government_hosted_educator"
+    },
+    "chromium_components": {
+      "title": "Chromium Bengali component translations",
+      "url": "https://chromium.googlesource.com/chromium/src/+/a58954d33ab9a41bb7748672343c6d6d6829311e/components/strings/components_strings_bn.xtb",
+      "kind": "primary_localization",
+      "snapshot_sha256": "382c3953631b15f73ab4ba0359dc7e36ebd356c680c55904c570be36e8b9642a"
+    },
+    "shopify": {
+      "title": "Shopify Bengali operations and analytics",
+      "url": "https://www.shopify.com/in-bn/manage",
+      "kind": "primary_localization"
+    },
+    "btrc": {
+      "title": "BTRC broadband penetration statistics",
+      "url": "https://btrc.gov.bd/site/page/9dbd49e8-e5dd-4e4b-b047-1d42ec922e47/a",
+      "kind": "primary_government_ui"
+    },
+    "bepza": {
+      "title": "BEPZA Public School and College: networking course questions",
+      "url": "https://bepzacollegectg.edu.bd/Com-System-and-Networking-Short-Question.pdf",
+      "kind": "primary_educational_material"
+    },
+    "latency": {
+      "title": "Teachers portal: satellite networking and latency",
+      "url": "https://teachers.gov.bd/blog/details/822396",
+      "kind": "government_hosted_educator"
+    },
+    "widget": {
+      "title": "Google Android Bengali search-widget help",
+      "url": "https://support.google.com/android/answer/14661350?hl=bn",
+      "kind": "primary_localization"
+    }
+  },
+  "entries": [
+    {
+      "english": "address",
+      "bangla": "অ্যাড্রেস",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "retained",
+      "corpus_frequency": 298,
+      "localization_message_id": "1175277108283187866",
+      "batch": 1
+    },
+    {
+      "english": "administrator",
+      "bangla": "অ্যাডমিনিস্ট্রেটর",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 101,
+      "localization_message_id": "8751329102746373229"
+    },
+    {
+      "english": "amazon",
+      "bangla": "অ্যামাজন",
+      "category": "brands",
+      "sources": [
+        "amazon"
+      ],
+      "action": "added",
+      "corpus_frequency": 641,
+      "batch": 1
+    },
+    {
+      "english": "analytics",
+      "bangla": "অ্যানালিটিক্স",
+      "category": "technology",
+      "sources": [
+        "shopify"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 53
+    },
+    {
+      "english": "antivirus",
+      "bangla": "অ্যান্টিভাইরাস",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 433,
+      "localization_message_id": "6818802132960437751"
+    },
+    {
+      "english": "architecture",
+      "bangla": "আর্কিটেকচার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 745,
+      "localization_message_id": "1937774647013465102"
+    },
+    {
+      "english": "attachment",
+      "bangla": "অ্যাটাচমেন্ট",
+      "category": "technology",
+      "sources": [
+        "attachment"
+      ],
+      "action": "added",
+      "corpus_frequency": 64,
+      "batch": 1
+    },
+    {
+      "english": "automation",
+      "bangla": "অটোমেশন",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 307,
+      "localization_message_id": "2742128390261873684"
+    },
+    {
+      "english": "backup",
+      "bangla": "ব্যাকআপ",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 454,
+      "localization_message_id": "2706304388244371417",
+      "batch": 1
+    },
+    {
+      "english": "badge",
+      "bangla": "ব্যাজ",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 1128,
+      "localization_message_id": "1457907785077086338"
+    },
+    {
+      "english": "bandwidth",
+      "bangla": "ব্যান্ডউইথ",
+      "category": "technology",
+      "sources": [
+        "bandwidth"
+      ],
+      "action": "added",
+      "corpus_frequency": 266,
+      "batch": 1
+    },
+    {
+      "english": "barcode",
+      "bangla": "বারকোড",
+      "category": "technology",
+      "sources": [
+        "barcode"
+      ],
+      "action": "added",
+      "corpus_frequency": 135,
+      "batch": 1
+    },
+    {
+      "english": "bit",
+      "bangla": "বিট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 2598,
+      "localization_message_id": "5914724413750400082",
+      "batch": 1
+    },
+    {
+      "english": "broadband",
+      "bangla": "ব্রডব্যান্ড",
+      "category": "technology",
+      "sources": [
+        "btrc"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 669
+    },
+    {
+      "english": "category",
+      "bangla": "ক্যাটাগরি",
+      "category": "business",
+      "sources": [
+        "category"
+      ],
+      "action": "added",
+      "corpus_frequency": 653,
+      "batch": 1
+    },
+    {
+      "english": "chatbot",
+      "bangla": "চ্যাটবট",
+      "category": "technology",
+      "sources": [
+        "chatbot"
+      ],
+      "action": "added",
+      "corpus_frequency": 134,
+      "batch": 1
+    },
+    {
+      "english": "coaching",
+      "bangla": "কোচিং",
+      "category": "education",
+      "sources": [
+        "education"
+      ],
+      "action": "added",
+      "corpus_frequency": 5046,
+      "batch": 1
+    },
+    {
+      "english": "connector",
+      "bangla": "কানেক্টর",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 48,
+      "localization_message_id": "6124432979022149706"
+    },
+    {
+      "english": "controller",
+      "bangla": "কন্ট্রোলার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 352,
+      "localization_message_id": "4748783296226936791",
+      "batch": 1
+    },
+    {
+      "english": "coupon",
+      "bangla": "কুপন",
+      "category": "business",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 411,
+      "localization_message_id": "554535686826424776",
+      "batch": 1
+    },
+    {
+      "english": "crash",
+      "bangla": "ক্র্যাশ",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 342,
+      "localization_message_id": "1405779994569073824",
+      "batch": 1
+    },
+    {
+      "english": "curriculum",
+      "bangla": "কারিকুলাম",
+      "category": "education",
+      "sources": [
+        "education"
+      ],
+      "action": "added",
+      "corpus_frequency": 252,
+      "batch": 1
+    },
+    {
+      "english": "developer",
+      "bangla": "ডেভেলপার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 960,
+      "localization_message_id": "163712950892155760",
+      "batch": 1
+    },
+    {
+      "english": "diagnostic",
+      "bangla": "ডায়াগনস্টিক",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 1115,
+      "localization_message_id": "1213254615020057352"
+    },
+    {
+      "english": "directory",
+      "bangla": "ডিরেক্টরি",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 368,
+      "localization_message_id": "1556537182262721003",
+      "batch": 1
+    },
+    {
+      "english": "disk",
+      "bangla": "ডিস্ক",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1095,
+      "localization_message_id": "1110965959145884739",
+      "batch": 1
+    },
+    {
+      "english": "download",
+      "bangla": "ডাউনলোড",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "retained",
+      "corpus_frequency": 2115,
+      "batch": 1
+    },
+    {
+      "english": "dress",
+      "bangla": "ড্রেস",
+      "category": "everyday_objects",
+      "sources": [
+        "dress"
+      ],
+      "action": "retained",
+      "corpus_frequency": 452,
+      "batch": 1
+    },
+    {
+      "english": "ethernet",
+      "bangla": "ইথারনেট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 127,
+      "localization_message_id": "4479639480957787382"
+    },
+    {
+      "english": "extension",
+      "bangla": "এক্সটেনশন",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 563,
+      "localization_message_id": "1070377999570795893",
+      "batch": 1
+    },
+    {
+      "english": "firmware",
+      "bangla": "ফার্মওয়্যার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 101,
+      "localization_message_id": "2972557485845626008",
+      "batch": 1
+    },
+    {
+      "english": "gateway",
+      "bangla": "গেটওয়ে",
+      "category": "technology",
+      "sources": [
+        "bepza"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 454
+    },
+    {
+      "english": "grameenphone",
+      "bangla": "গ্রামীণফোন",
+      "category": "brands",
+      "sources": [
+        "gp"
+      ],
+      "action": "added",
+      "corpus_frequency": 2485,
+      "batch": 1
+    },
+    {
+      "english": "hostname",
+      "bangla": "হোস্টনেম",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 3,
+      "localization_message_id": "6811332638216701903"
+    },
+    {
+      "english": "installer",
+      "bangla": "ইনস্টলার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 44,
+      "localization_message_id": "3716065403310915079"
+    },
+    {
+      "english": "keyboard",
+      "bangla": "কীবোর্ড",
+      "category": "technology",
+      "sources": [
+        "keyboard"
+      ],
+      "action": "retained",
+      "corpus_frequency": 315,
+      "batch": 1
+    },
+    {
+      "english": "latency",
+      "bangla": "ল্যাটেন্সি",
+      "category": "technology",
+      "sources": [
+        "latency"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 18
+    },
+    {
+      "english": "malware",
+      "bangla": "ম্যালওয়্যার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 656,
+      "localization_message_id": "157931050206866263",
+      "batch": 1
+    },
+    {
+      "english": "master",
+      "bangla": "মাস্টার",
+      "category": "education",
+      "sources": [
+        "teacher"
+      ],
+      "action": "retained",
+      "corpus_frequency": 6452,
+      "batch": 1
+    },
+    {
+      "english": "mastercard",
+      "bangla": "মাস্টারকার্ড",
+      "category": "brands",
+      "sources": [
+        "gp"
+      ],
+      "action": "added",
+      "corpus_frequency": 264,
+      "batch": 1
+    },
+    {
+      "english": "menu",
+      "bangla": "মেনু",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 449,
+      "localization_message_id": "2464075479326723132",
+      "batch": 1
+    },
+    {
+      "english": "metadata",
+      "bangla": "মেটাডেটা",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 102,
+      "localization_message_id": "3284050785966252943"
+    },
+    {
+      "english": "multimedia",
+      "bangla": "মাল্টিমিডিয়া",
+      "category": "technology",
+      "sources": [
+        "projector"
+      ],
+      "action": "added",
+      "corpus_frequency": 1763,
+      "batch": 1
+    },
+    {
+      "english": "navigation",
+      "bangla": "নেভিগেশন",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 574,
+      "localization_message_id": "316542773973815724"
+    },
+    {
+      "english": "notebook",
+      "bangla": "নোটবুক",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 455,
+      "localization_message_id": "5593640815048812868"
+    },
+    {
+      "english": "offer",
+      "bangla": "অফার",
+      "category": "business",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1872,
+      "localization_message_id": "360180734785106144",
+      "batch": 1
+    },
+    {
+      "english": "order",
+      "bangla": "অর্ডার",
+      "category": "business",
+      "sources": [
+        "walmart"
+      ],
+      "action": "added",
+      "corpus_frequency": 5653,
+      "batch": 1
+    },
+    {
+      "english": "partner",
+      "bangla": "পার্টনার",
+      "category": "business",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1046,
+      "localization_message_id": "1213254615020057352",
+      "batch": 1
+    },
+    {
+      "english": "pixel",
+      "bangla": "পিক্সেল",
+      "category": "technology",
+      "sources": [
+        "pixel"
+      ],
+      "action": "added",
+      "corpus_frequency": 925,
+      "batch": 1
+    },
+    {
+      "english": "plan",
+      "bangla": "প্ল্যান",
+      "category": "business",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1413,
+      "localization_message_id": "1607540893439314147",
+      "batch": 1
+    },
+    {
+      "english": "popup",
+      "bangla": "পপআপ",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 28,
+      "localization_message_id": "3727187387656390258",
+      "batch": 1
+    },
+    {
+      "english": "portal",
+      "bangla": "পোর্টাল",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 1158,
+      "localization_message_id": "7454548535253569100"
+    },
+    {
+      "english": "print",
+      "bangla": "প্রিন্ট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1984,
+      "localization_message_id": "1175364870820465910",
+      "batch": 1
+    },
+    {
+      "english": "projector",
+      "bangla": "প্রজেক্টর",
+      "category": "technology",
+      "sources": [
+        "projector"
+      ],
+      "action": "added",
+      "corpus_frequency": 337,
+      "batch": 1
+    },
+    {
+      "english": "pyramid",
+      "bangla": "পিরামিড",
+      "category": "education",
+      "sources": [
+        "pyramid"
+      ],
+      "action": "added",
+      "corpus_frequency": 886,
+      "batch": 1
+    },
+    {
+      "english": "quota",
+      "bangla": "কোটা",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 7015,
+      "localization_message_id": "3957079323242030166"
+    },
+    {
+      "english": "redirect",
+      "bangla": "রিডাইরেক্ট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 14,
+      "localization_message_id": "6777817260680419853"
+    },
+    {
+      "english": "refund",
+      "bangla": "রিফান্ড",
+      "category": "business",
+      "sources": [
+        "refund"
+      ],
+      "action": "added",
+      "corpus_frequency": 19,
+      "batch": 1
+    },
+    {
+      "english": "rendering",
+      "bangla": "রেন্ডারিং",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 115,
+      "localization_message_id": "7888575728750733395"
+    },
+    {
+      "english": "restart",
+      "bangla": "রিস্টার্ট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 122,
+      "localization_message_id": "152629053603783244"
+    },
+    {
+      "english": "sales",
+      "bangla": "সেলস",
+      "category": "business",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 820,
+      "localization_message_id": "5932441198730183141",
+      "batch": 1
+    },
+    {
+      "english": "satellite",
+      "bangla": "স্যাটেলাইট",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 3382,
+      "localization_message_id": "186539747722034544"
+    },
+    {
+      "english": "sensor",
+      "bangla": "সেন্সর",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 3043,
+      "localization_message_id": "106814709658156573",
+      "batch": 1
+    },
+    {
+      "english": "simulation",
+      "bangla": "সিমুলেশন",
+      "category": "technology",
+      "sources": [
+        "chromium_components"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 245,
+      "localization_message_id": "6734506549556896534"
+    },
+    {
+      "english": "starbucks",
+      "bangla": "স্টারবাকস",
+      "category": "brands",
+      "sources": [
+        "starbucks"
+      ],
+      "action": "added",
+      "corpus_frequency": 35,
+      "batch": 1
+    },
+    {
+      "english": "storage",
+      "bangla": "স্টোরেজ",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1274,
+      "localization_message_id": "1347512539447549782",
+      "batch": 1
+    },
+    {
+      "english": "streaming",
+      "bangla": "স্ট্রিমিং",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 968,
+      "localization_message_id": "2316433409811863464",
+      "batch": 1
+    },
+    {
+      "english": "subtitle",
+      "bangla": "সাবটাইটেল",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 149,
+      "localization_message_id": "7670483791111801022"
+    },
+    {
+      "english": "suzuki",
+      "bangla": "সুজুকি",
+      "category": "brands",
+      "sources": [
+        "gp"
+      ],
+      "action": "added",
+      "corpus_frequency": 367,
+      "batch": 1
+    },
+    {
+      "english": "tab",
+      "bangla": "ট্যাব",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 1369,
+      "localization_message_id": "1002085272681738789",
+      "batch": 1
+    },
+    {
+      "english": "teacher",
+      "bangla": "টিচার",
+      "category": "education",
+      "sources": [
+        "teacher"
+      ],
+      "action": "retained",
+      "corpus_frequency": 327,
+      "batch": 1
+    },
+    {
+      "english": "touchscreen",
+      "bangla": "টাচস্ক্রিন",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 136,
+      "localization_message_id": "3867831579565057323",
+      "batch": 1
+    },
+    {
+      "english": "tracker",
+      "bangla": "ট্র্যাকার",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 157,
+      "localization_message_id": "6961327401577924850"
+    },
+    {
+      "english": "upload",
+      "bangla": "আপলোড",
+      "category": "technology",
+      "sources": [
+        "upload"
+      ],
+      "action": "retained",
+      "corpus_frequency": 1540,
+      "batch": 1
+    },
+    {
+      "english": "username",
+      "bangla": "ইউজারনেম",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "added",
+      "corpus_frequency": 29,
+      "localization_message_id": "1496514951988037011",
+      "batch": 1
+    },
+    {
+      "english": "walmart",
+      "bangla": "ওয়ালমার্ট",
+      "category": "brands",
+      "sources": [
+        "walmart"
+      ],
+      "action": "added",
+      "corpus_frequency": 171,
+      "batch": 1
+    },
+    {
+      "english": "walton",
+      "bangla": "ওয়ালটন",
+      "category": "brands",
+      "sources": [
+        "gp"
+      ],
+      "action": "added",
+      "corpus_frequency": 1559,
+      "batch": 1
+    },
+    {
+      "english": "webinar",
+      "bangla": "ওয়েবিনার",
+      "category": "education",
+      "sources": [
+        "webinar"
+      ],
+      "action": "added",
+      "corpus_frequency": 14,
+      "batch": 1
+    },
+    {
+      "english": "website",
+      "bangla": "ওয়েবসাইট",
+      "category": "technology",
+      "sources": [
+        "chromium"
+      ],
+      "action": "retained",
+      "corpus_frequency": 23751,
+      "batch": 1
+    },
+    {
+      "english": "widget",
+      "bangla": "উইজেট",
+      "category": "technology",
+      "sources": [
+        "widget"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 60
+    },
+    {
+      "english": "workflow",
+      "bangla": "ওয়ার্কফ্লো",
+      "category": "technology",
+      "sources": [
+        "shopify"
+      ],
+      "action": "added",
+      "batch": 2,
+      "corpus_frequency": 9
+    },
+    {
+      "english": "xiaomi",
+      "bangla": "শাওমি",
+      "category": "brands",
+      "sources": [
+        "gp"
+      ],
+      "action": "added",
+      "corpus_frequency": 446,
+      "batch": 1
+    }
+  ],
+  "fuzzy_probes": [
+    {
+      "input": "starbuck",
+      "canonical": "starbucks",
+      "bangla": "স্টারবাকস"
+    }
+  ],
+  "decisions": [
+    "Use the canonical brand key starbucks; starbuck reaches it through bounded fuzzy lookup. No exact typo alias is added.",
+    "Use অ্যামাজন for the company pronunciation. The river/place pronunciation আমাজন is not added for this brand key in this batch.",
+    "Use the established borrowing ক্যাটাগরি rather than producing a spelling directly from English letter values.",
+    "Retain the pre-existing keyboard variants কিবোর্ড and কীবোর্ড. The latter is independently attested by the keyboard source.",
+    "Do not blindly merge all categorized seeds: 484 spelling-specific pairs were absent from the runtime list before this review.",
+    "Keep address → অ্যাড্রেস as the canonical loanword spelling, as confirmed by the user. Remove the proposed এড্রেস variant. Retain dress → ড্রেস.",
+    "Batch 2 uses pinned Chromium localization, primary publisher/government usage, and a government-hosted educator article, corroborated by the corpus. Similar-looking words in Assamese pages and the getaway sense of গেটওয়ে are not used as networking evidence."
+  ],
+  "excluded_pairs": [
+    {
+      "english": "address",
+      "bangla": "এড্রেস",
+      "reason": "Use the user-confirmed canonical loanword spelling অ্যাড্রেস."
+    }
+  ]
+}

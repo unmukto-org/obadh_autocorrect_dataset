@@ -26,6 +26,8 @@ lexicons/
     news_bn.tsv
   loanwords/
     en_bn_loanwords.tsv
+    en_bn_loanwords_categorized.tsv
+    verified_expansion_2026-10-09.json
   derived/
     loan_bn.tsv
   merged/
@@ -38,6 +40,20 @@ models/
 `models/bn.fst` is the main Bangla word-frequency FST. `models/en_bn_loanwords.fst`
 is the compact English-key loanword FST used for exact and bounded fuzzy
 loanword correction.
+
+The dated research manifest records sources, pinned localization message IDs,
+corpus counts, and curation decisions for two verified expansion batches. Corpus occurrence
+supports usage; it is not an endorsement of spelling by a language authority.
+Categorized metadata and the runtime TSV have different historical coverage;
+the audit verifies each reviewed pair in both files rather than assuming parity.
+`address` uses the canonical spelling অ্যাড্রেস; the proposed এড্রেস variant is
+excluded. The existing `dress` → ড্রেস mapping is retained. Corpus evidence does
+not replace the builder's default ranking frequency of 16.
+
+From the main repository, run `node tools/autocorrect/verify_loanword_dataset.mjs`
+to check corpus evidence, TSV consistency, reproducible models, native/WASM
+suggestions, and playground artifact parity. Add `--verify-sources` to also fetch
+the pinned Chromium localization snapshots and check their audited message IDs.
 
 Large TSV/FST files are stored with Git LFS. From the main repo, use:
 
